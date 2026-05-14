@@ -1,0 +1,12 @@
+variable,description,type,role
+rating,Patient rating outcome from the online healthcare platform.,numeric,dependent variable
+sentiment_continuous,Transformer-derived sentiment polarity score.,numeric,primary text-derived predictor
+complaint_present,Binary indicator for explicit complaint or dissatisfaction language.,binary,primary text-derived predictor
+appreciative_language_present,"Binary indicator for praise, appreciation, or favorable evaluative wording.",binary,primary text-derived predictor
+informativeness,Standardized exploratory proxy for decision-useful review detail.,numeric,secondary exploratory predictor
+log_review_count,Log-transformed physician review count.,numeric,structured reputation signal
+log_patient_count,Log-transformed physician patient count.,numeric,structured reputation signal
+doctor_title_num,Ordered coding of physician professional title.,ordinal numeric,structured physician signal
+review_length,Character length of the cleaned review text.,numeric,auxiliary text variable
+tag_count,Number of review tags associated with the review.,numeric,auxiliary text variable
+symptom_present,Binary indicator for whether a symptom field was present.,binary,auxiliary text variable
