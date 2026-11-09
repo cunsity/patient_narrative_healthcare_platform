@@ -1,9 +1,4 @@
-pandas
-numpy
-scikit-learn
-statsmodels
-matplotlib
-transformers
-torch
-jieba
-openpyxl
+numpy>=1.24,<3
+pandas>=2.0,<3
+scipy>=1.10,<2
+statsmodels>=0.14,<1
